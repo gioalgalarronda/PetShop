@@ -1,5 +1,126 @@
-.header {
+* {margin: 0px;
+padding: 0px
+}
+
+.borde {
         font-family: 'Roboto', sans-serif;
         background-color: #222222;
         font-size: 10px;
+        line-height: 11.72px;
+        font-style: normal;
+        color: white;
+}
+#idioma {
+        text-align: right;
+        font-family: 'Roboto', sans-serif;
+}
+#moneda {
+        text-align: right;
+        font-family: 'Roboto', sans-serif;
+}
+
+header {
+        background-color: #F0A83E;
+}
+
+.menú {
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        font-size: 13px;
+        text-align: right;
+        margin-right: 30px;
+        word-spacing: 10px;
+}
+
+.logo {
+        height: 23px;
+        width: 167px;
+        left: 40px;
+        top: 39px;
+        border-radius: 0px;
+}
+
+h1 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        text-align: right;
+        color: #3C2313;
+        line-height: 35.16px;
+}
+
+#banner {
+        height: 409px;
+        text-align: right;
+        background-image: url(../images/banner.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Roboto', sans-serif;
+        color: #3C2313;
+        padding-right: 12px;
+        padding-top: 199px;
+}
+
+h2 {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        color: #3C2313;
+        text-align: center;
+        font-size: 40px;
+}
+
+h3 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+}
+
+.principales {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        color: #666666;
+        font-size: 15px;
+        word-spacing: 20px;
+        padding-top: 20px;
+}
+
+#destacados {
+        text-align: center;
+        background-color: white;
+        font-family: 'Roboto', sans-serif;
+}
+
+.productos {
+        display: inline-flexbox;
+}
+
+#formulario {
+        text-align: center;
+        padding-top: 20px;
+}
+
+.suscripción {
+        font-family: 'Roboto', sans-serif;
+        background-color: #F0A83E;
+        padding-left: 20px;
+}
+
+footer {
+        background-color: #3C2313;
+        color: #E5E5E5;
+        font-family: 'Roboto', sans-serif;
+}
+
+.datos_básicos {
+        padding-left: 80px;
+}
+
+.logo_footer {
+        padding-right: 10px;
+}
+.borde_abajo {
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        color: #FFFFFF;
+        font-weight: 700;
 }
